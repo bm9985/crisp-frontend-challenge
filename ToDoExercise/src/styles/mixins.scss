@@ -1,0 +1,11 @@
+@import './colors.scss';
+
+@mixin categories-colors {
+  @for $i from 1 through 4 {
+    .category-#{$i} { 
+      span {
+        color: nth($categories-colors, $i) !important;
+      }
+    }
+  }
+}

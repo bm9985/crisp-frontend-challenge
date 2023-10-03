@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext", // Use "ESNext" for modern JavaScript environments
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true, // Allows importing CommonJS modules in ES modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforces consistent file naming
+    "noImplicitAny": true, // Avoid implicit 'any' types
+    "strictNullChecks": true, // Ensure null safety
+    "strictFunctionTypes": true, // Enforce stricter function type checking
+    "strictPropertyInitialization": true, // Ensure class properties are initialized
+    "noUnusedLocals": true, // Detect unused local variables
+    "noUnusedParameters": true, // Detect unused parameters
+    "noImplicitReturns": true, // Enforce return type checking
+    "noFallthroughCasesInSwitch": true, // Detect fallthrough cases in switch statements
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "baseUrl": "./src", // Base URL for module resolution
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Root directory of the project
+    "declaration": true // Generate declaration files (.d.ts)
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/Todo/index.jsx", "src/components/Todo/TodoForm/AvatarInput/index.jsx", "src/components/Todo/TodoAdd/index.jsx", "src/components/Todo/Summary/index.jsx", "src/components/Todo/DateFilter/DateSelector/index.jsx", "src/components/layout/Overlay/index.jsx", "src/components/layout/ContentLayout/index.jsx", "src/components/Todo/Progress/index.jsx", "src/components/Todo/DateFilter/index.jsx", "src/components/Todo/TodoForm/CategoryInput/index.jsx", "src/components/Todo/TodoForm/AvatarMenu/index.jsx", "src/components/Todo/TodoListItem/index.jsx", "src/components/Todo/TodoList/index.jsx", "src/components/Todo/TodoForm/index.jsx", "src/components/Todo/TodoForm/DateTimeInput/index.jsx", "src/components/Todo/TodoForm/CategoryMenu/index.jsx", "src/Todo/MyDay/body.jsx", "src/Todo/MyDay/index.jsx", "src/Todo/New/index.jsx", "src/components/ui/InputGroup/index.jsx", "src/components/ui/EmptySpace/index.jsx", "src/components/ui/Avatar/index.jsx", "src/components/Todo/Toolbar/index.jsx", "src/components/Todo/Toolbar/StatusFilter/index.jsx"],
+  "exclude": ["node_modules"]
+}
